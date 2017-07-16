@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onResponse(String response) {
                         try {
                             JSONObject jsonResponse = new JSONObject(response);
-                            boolean success = jsonResponse.getBoolean("success");
+                            boolean success = jsonResponse.getBoolean("status");
 
                             if (success) {
                                 String name = jsonResponse.getString("name");
