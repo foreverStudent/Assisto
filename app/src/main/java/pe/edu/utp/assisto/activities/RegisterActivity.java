@@ -1,8 +1,8 @@
 package pe.edu.utp.assisto.activities;
 
-/**
- * Created by Gonza on 15/07/2017.
- */
+import android.support.v7.app.AppCompatActivity;
 
-public class RegisterActivity {
+
+public class RegisterActivity extends AppCompatActivity {
+
 }
